@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1{
+        color:blue;
+        text-align:center;
+        background-color: aqua;
+        }
+        h2{
+        color: green;
+        }
+        body{
+        color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Form has been Submitted</h1>
+    <h2>This is a copy of your information:</h2>
+    <div class="info">
+        <p><strong>Your Name:</strong> {{ name }}</p>
+        <p><strong>Your ID:</strong> {{ id }}</p>
+        <p><strong>Your Age:</strong> {{ age }}</p>
+        <p><strong>Your Address:</strong> {{ address }}</p>
+        <p><strong>Your Phone Number:</strong> {{ phone }}</p>
+    </div>
+</body>
+</html>

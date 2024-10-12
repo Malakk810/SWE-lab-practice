@@ -1,0 +1,11 @@
+# User Information Form
+
+## Overview
+This project is a simple Flask web application that allows users to input their personal information, including name, ID, age,
+address, and phone number. Once submitted, the information is displayed on a separate page, confirming that the form has been
+successfully submitted.
+
+## Features
+- User-friendly input form for collecting personal information.
+- Displaying submitted information on a display page.
+- Simple and clean design.
